@@ -6,6 +6,7 @@
 Use terminal.
 
 ```swift
+git clone https://github.com/barisuyar/BuassetX.git
 cd BuassetX
 ruby buassetx.rb
 ```
