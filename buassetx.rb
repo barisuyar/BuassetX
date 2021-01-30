@@ -9,7 +9,7 @@ end
 
 def retrivePaths
     puts
-    puts "Please enter project directory".green
+    puts "Please enter directory that has Assets file.".green
     projectDirectory = gets.strip
     fileListToCheck = Dir.children("#{projectDirectory}")
     if fileListToCheck.include?('Assets.xcassets')
